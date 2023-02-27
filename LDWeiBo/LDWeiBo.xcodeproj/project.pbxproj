@@ -17,6 +17,7 @@
 		6B7C77D629A738E900BC5402 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7C77D529A738E900BC5402 /* MessageViewController.swift */; };
 		6B7C77D829A7390C00BC5402 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7C77D729A7390C00BC5402 /* DiscoverViewController.swift */; };
 		6B7C77DA29A7395100BC5402 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7C77D929A7395100BC5402 /* ProfileViewController.swift */; };
+		6BA7D14829ACB06300C474A4 /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7D14729ACB06300C474A4 /* MainVCSettings.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		6B7C77D529A738E900BC5402 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		6B7C77D729A7390C00BC5402 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		6B7C77D929A7395100BC5402 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		6BA7D14729ACB06300C474A4 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,9 +124,18 @@
 		6B7C77D029A71B9A00BC5402 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				6BA7D14629ACB06300C474A4 /* Resource */,
 				6B7C77D129A7368B00BC5402 /* MainViewController.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		6BA7D14629ACB06300C474A4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6BA7D14729ACB06300C474A4 /* MainVCSettings.json */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +198,7 @@
 			files = (
 				6B7C77C429A70E5B00BC5402 /* LaunchScreen.storyboard in Resources */,
 				6B7C77C129A70E5B00BC5402 /* Assets.xcassets in Resources */,
+				6BA7D14829ACB06300C474A4 /* MainVCSettings.json in Resources */,
 				6B7C77BC29A70E5700BC5402 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
